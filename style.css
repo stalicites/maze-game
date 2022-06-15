@@ -1,0 +1,28 @@
+#container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+input {
+    border: 2px solid black;
+}
+
+* {
+    font-family: arial,helvetica,sans-serif;
+}
+
+#messages {
+    height: 580px;
+    width: 300;
+    background-color: #eee;
+    padding: 2%;
+    overflow-y: scroll;
+}
+
+#text {
+    width: 300px;
+    margin-top: 2%;
+}

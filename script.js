@@ -1,4 +1,4 @@
-const connection = io(window.location.href);
+const connection = io("https://maze-game-online.herokuapp.com/");
 const canvas = document.getElementById('canvas');
 const display = canvas.getContext('2d');
 
